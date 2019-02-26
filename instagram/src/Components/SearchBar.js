@@ -1,6 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class SearchBar extends Component{
+function SearchBar(props) {
+    return (
+        <>
+        <div className="search">
+        
+        </div>
+        </>
+
+    )
     
 }
 
