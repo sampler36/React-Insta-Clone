@@ -1,0 +1,46 @@
+
+.container{
+    border: 10px solid #d3d3d3;
+    margin: 5px 0;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.thumb-wrapper {
+    height: 50px;
+    width: 50px;
+  }
+.thumbnail{
+    width: 40px;
+    padding: 20px;
+    margin: 0;
+    border-radius: 50%;
+
+}
+.top{
+ display: flex;
+
+}
+.text{
+    font-size: 13px;
+    font-family: Geneva, Verdana;
+    margin: 2px;
+    margin-left: 12px;
+    
+}
+.comments{
+    display: inline-block;
+     text-align: inherit;
+}
+
+.usercom{
+    padding-right: 200px;
+    margin-left: 5px;
+    font-size: 18px;
+    display: flex;
+
+
+}
+.user{
+    font-weight: bolder;
+  
+}
+

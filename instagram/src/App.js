@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import dummyData from './dummy-data';
-import SearchBar from './Components/SearchBar';
-import PostContainer from './Components/PostContainer';
-import CommentSection from './Components/CommentSection';
+import SearchBar from './Components/SearchBar/SearchBar';
+import PostContainer from './Components/PostsContainer/PostContainer';
+
 
 
 class App extends Component {
@@ -19,9 +19,11 @@ class App extends Component {
     return (
       
       <div className="App">
-        <header className="App-header">
-        </header>
-        <SearchBar />
+
+      <div>
+         <SearchBar />
+      </div>
+
         {this.state.data.map(post => (
             <PostContainer 
              post={post}
@@ -30,9 +32,7 @@ class App extends Component {
          
         )}
        
-      
-       
-       <CommentSection />
+   
       </div>
     );
   }

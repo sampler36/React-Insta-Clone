@@ -75,7 +75,8 @@ const dummyData = [
       {
         username: "awesomebt28",
         text: "I like how Half Dome looks so old and useless"
-      }
+      },
+     
     ]
   }
 ];
